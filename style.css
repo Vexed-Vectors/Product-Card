@@ -19,7 +19,7 @@ body{
 
 .PIC{
     width: 205.67px;
-    background-image: url("perfume.jpg") ;
+    background-image: url("images/perfume.jpg") ;
     background-repeat: no-repeat;
     background-size: 205.67px 341.59px;
     border-top-left-radius: 2%;
@@ -116,7 +116,7 @@ body{
         border-bottom-right-radius: 2%;
     }
     .PIC{
-        background-image: url("mobile.jpg");
+        background-image: url("images/mobile.jpg");
         float: left;
         height: 200px;
         width: 361px;

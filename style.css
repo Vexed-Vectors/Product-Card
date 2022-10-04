@@ -1,0 +1,203 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    
+}
+
+
+.CARD{
+    background-color: hsl(0, 0%, 100%);
+    
+    position: absolute;
+    top:20%;
+    left: 30%;
+    width: 40%;
+    height: 60%;
+    border-radius: 2%;
+    display: flex;
+    
+}
+
+.PIC{
+    width: 205.67px;
+    background-image: url("images/perfume.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 205.67px 341.59px;
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+}
+.TEXT{
+    max-width: 205.67px;
+}
+.heading1{
+    font-family: 'Montserrat', sans-serif;
+    margin: 30px 0px 0px 10px;
+    font-size: 12px;
+    letter-spacing: 5px;
+    font-weight: 500, 700;
+    color: hsl(228, 12%, 48%);
+    
+}
+.asd{
+    max-width: 320px;
+    font-size: 25px;
+    line-height:1;
+    font-weight: 700;
+    text-decoration: solid;
+    font-family: 'Fraunces', serif;
+    margin: 20px 10px 0px 10px;
+    
+}
+
+.LAUDANTIUM{
+    max-width: 320px;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    margin: 20px 0px 0px 10px;
+    line-height: 1.50;
+    letter-spacing: 1px;
+
+}
+.prices{
+    margin: 5px 0px 0px 10px;
+    display: flex;
+    height: 40px;
+}
+
+
+.PRICE{
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    padding: 0;
+    height: 40px;
+    color: hsl(158, 36%, 37%);
+    margin:0;
+
+}
+.KATU{
+    margin:8px;
+    font-weight: 100;
+    text-decoration: line-through;
+    font-size: 12px;
+
+}
+.CART{
+    margin: 5px 0px 0px 10px;
+    width: 90%; 
+    height:2%;
+    background-color: hsl(158, 36%, 37%);
+    color:white;
+    border-radius: 4px;
+    padding:  7px 20px 25px 20px;
+    
+}
+.CART:hover{
+    background-color: hsl(212, 21%, 14%);
+}
+
+
+
+
+
+
+@media only screen and (max-width: 376px) {
+    body{
+        background-color: hsl(30, 38%, 92%);
+        
+    }
+    
+    .CARD{
+        top:5%;
+        left: 2%;
+        width: 96%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        border-bottom-left-radius: 2%;
+        border-bottom-right-radius: 2%;
+    }
+    .PIC{
+        background-image: url("images/mobile.jpg");
+        float: left;
+        height: 200px;
+        width: 361px;
+        border-top-left-radius: 2%;
+        border-top-right-radius: 2%;
+        background-size: cover;
+        
+        
+    }
+
+    .TEXT{
+        float: left;
+        clear: left;
+    }
+
+
+    .heading1{
+        font-family: 'Montserrat', sans-serif;
+        margin: 10px 0px 0px 20px;
+        font-size: 12px;
+        letter-spacing: 5px;
+        font-weight: 500, 700;
+        color: hsl(228, 12%, 48%);
+        
+    }
+    .asd{
+        width: 335px;
+        font-size: 31px;
+        line-height:1;
+        font-weight: 700;
+        text-decoration: solid;
+        font-family: 'Fraunces', serif;
+        margin: 10px 0px 0px 20px;
+        
+        
+    }
+    
+    .LAUDANTIUM{
+        width:335px;
+        font-size: 18px;
+        color: hsl(228, 12%, 48%);
+        margin: 10px 0px 0px 20px;
+        line-height: 1.50;
+        letter-spacing: 1px;
+        justify-content: center;
+    }
+    .prices{
+        margin: 5px 0px 0px 20px;
+        display: flex;
+        height: 40px;
+    }
+    
+    
+    .PRICE{
+        font-family: 'Fraunces', serif;
+        font-weight: 600;
+        padding: 0;
+        height: 40px;
+        color: hsl(158, 36%, 37%);
+        margin:0;
+    
+    }
+    .KATU{
+        margin:8px;
+        font-weight: 100;
+        text-decoration: line-through;
+        font-size: 15px;
+    
+    }
+    .CART{
+        margin: 5px 10px 0px 10px;
+        width: 335px; 
+        height:2%;
+        background-color: hsl(158, 36%, 37%);
+        color:white;
+        border-radius: 4px;
+        padding:  7px 20px 25px 20px;
+        
+    }
+    .CART:hover{
+        background-color: hsl(212, 21%, 14%);
+    }
+}    
+
